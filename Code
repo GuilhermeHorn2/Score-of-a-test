@@ -1,0 +1,42 @@
+s = 0
+r2 = []
+while True:
+    n = int(input('0 to send,any number to pass:'))
+    if n == 0:
+        print(max(r2))
+        print(min(r2))
+        print(sum(r2) / len(r2))
+        print(r2)
+        break
+    s = 0
+    n1 = input('Q-1:')
+    n2 = input('Q-2:')
+    n3 = input('Q-3:')
+    n4 = input('Q-4:')
+    n5 = input('Q-5:')
+    n6 = input('Q-6:')
+    n7 = input('Q-7:')
+    n8 = input('Q-8:')
+    n9 = input('Q-9:')
+    n10 = input('Q-10:')
+    if n1 == 'A':
+        s += 1
+    if n2 == 'B':
+        s += 1
+    if n3 == 'C':
+        s += 1
+    if n4 == 'D':
+        s += 1
+    if n5 == 'E':
+        s += 1
+    if n6 == 'E':
+        s += 1
+    if n7 == 'D':
+        s += 1
+    if n8 == 'C':
+        s += 1
+    if n9 == 'B':
+        s += 1
+    if n10 == 'A':
+        s += 1
+    r2.append(s)
